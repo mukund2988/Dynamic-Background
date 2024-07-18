@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.container {
+  background: none;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  background: transparent;
+  padding: 10px;
+  border-radius: 5px;
+}
+h3 {
+  margin-left: 130px;
+  color: rgb(225, 33, 97);
+}
